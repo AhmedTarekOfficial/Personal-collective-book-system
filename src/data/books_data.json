@@ -1,0 +1,595 @@
+{
+  "books": [
+    {
+      "title": "Time and chance :  A romance and a history : being the story of the life of…",
+      "author": "Hubbard, Elbert, 1856-1915",
+      "language": "English",
+      "isbn": "979-8-238-79783-0",
+      "release_date": "Oct 14, 2026",
+      "subjects": [
+        "Biographical fiction",
+        "Brown, John, 1800-1859 -- Fiction",
+        "Abolitionists -- Fiction"
+      ]
+    },
+    {
+      "title": "How to become a United States citizen by George Milburn",
+      "author": "Milburn, George, 1906-1966",
+      "language": "English",
+      "isbn": "979-8-238-79782-3",
+      "release_date": "Oct 14, 2026",
+      "subjects": [
+        "Americanization",
+        "Naturalization -- United States -- Popular works",
+        "Citizenship -- United States -- Popular works"
+      ]
+    },
+    {
+      "title": "A pamphlet against anthologies by Laura Riding and Robert Graves",
+      "author": "Riding, Laura, 1901-1991",
+      "language": "English",
+      "isbn": "979-8-238-79781-6",
+      "release_date": "Oct 14, 2026",
+      "subjects": [
+        "English poetry -- History and criticism",
+        "Anthologies -- History and criticism",
+        "English poetry -- Bibliography"
+      ]
+    },
+    {
+      "title": "The voiceless sentinels by Roger D. Aycock",
+      "author": "Aycock, Roger D., 1914-2004",
+      "language": "English",
+      "isbn": "979-8-238-79780-9",
+      "release_date": "Oct 13, 2026",
+      "subjects": [
+        "Science fiction",
+        "Short stories",
+        "Human-alien encounters -- Fiction",
+        "Outer space -- Exploration -- Fiction",
+        "Extrasolar planets -- Fiction"
+      ]
+    },
+    {
+      "title": "The widowhood of Queen Victoria by Clare Jerrold",
+      "author": "Jerrold, Clare, 1861-1937",
+      "language": "English",
+      "isbn": "979-8-238-79779-3",
+      "release_date": "Oct 13, 2026",
+      "subjects": [
+        "Victoria, Queen of Great Britain, 1819-1901",
+        "Great Britain -- Politics and government -- 1837-1901"
+      ]
+    },
+    {
+      "title": "Radiotechnik :  Das Reich der elektrischen Wellen by Hanns Günther",
+      "author": "Günther, Hanns, 1886-1969",
+      "language": "German",
+      "isbn": "979-8-238-79778-6",
+      "release_date": "Oct 13, 2026",
+      "subjects": [
+        "Radio",
+        "Telegraph, Wireless",
+        "Electric waves"
+      ]
+    },
+    {
+      "title": "The early history of Piccadilly, Leicester Square, Soho, & their neighbourhood…",
+      "author": "Kingsford, Charles Lethbridge, 1862-1926",
+      "language": "English",
+      "isbn": "979-8-238-79777-9",
+      "release_date": "Oct 13, 2026",
+      "subjects": [
+        "London (England) -- History"
+      ]
+    },
+    {
+      "title": "A saudade portuguesa :  divagoções filológicas e literar-históricas em volta de…",
+      "author": "Vasconcellos, Carolina Michaëlis de, 1851-1925",
+      "language": "Portuguese",
+      "isbn": "979-8-238-79776-2",
+      "release_date": "Oct 13, 2026",
+      "subjects": [
+        "Castro, Inês de, -1355",
+        "Portuguese language -- Etymology",
+        "Portuguese language -- History",
+        "Portuguese language -- Semantics"
+      ]
+    },
+    {
+      "title": "Picture logic :  An attempt to popularise the science of reasoning by the…",
+      "author": "Swinburne, Alfred James, 1847?-1915",
+      "language": "English",
+      "isbn": "979-8-238-79775-5",
+      "release_date": "Oct 13, 2026",
+      "subjects": [
+        "Logic"
+      ]
+    },
+    {
+      "title": "The flaw by Helen R. Hull",
+      "author": "Hull, Helen R. (Helen Rose), 1888-1971",
+      "language": "English",
+      "isbn": "979-8-238-79774-8",
+      "release_date": "Oct 13, 2026",
+      "subjects": [
+        "Short stories",
+        "Young women -- Fiction",
+        "Courtship -- Fiction",
+        "Families -- Fiction"
+      ]
+    },
+    {
+      "title": "The historical evolution of the Ukrainian problem by Mykhaĭlo Hrushevsʹkyĭ",
+      "author": "Hrushevsʹkyĭ, Mykhaĭlo, 1866-1934",
+      "language": "English",
+      "isbn": "979-8-238-79773-1",
+      "release_date": "Oct 13, 2026",
+      "subjects": [
+        "Nationalism -- Ukraine -- History",
+        "Ukrainian question",
+        "Ukraine -- History -- Autonomy and independence movements"
+      ]
+    },
+    {
+      "title": "Jeff Clayton's surprise :  or, The lure of the red dragon by Ward",
+      "author": "Ward, William (Author at Arthur Westbrook Co. (Cleveland, Ohio))",
+      "language": "English",
+      "isbn": "979-8-238-79772-4",
+      "release_date": "Oct 12, 2026",
+      "subjects": [
+        "New York (N.Y.) -- Fiction",
+        "Detective and mystery stories",
+        "Murder -- Investigation -- Fiction",
+        "Dime novels",
+        "Gangs -- Fiction"
+      ]
+    },
+    {
+      "title": "Secret societies and the French revolution :  together with some kindred…",
+      "author": "Pope-Hennessy, Una, 1876-1949",
+      "language": "English",
+      "isbn": "979-8-238-79771-7",
+      "release_date": "Oct 12, 2026",
+      "subjects": [
+        "France -- History -- Revolution, 1789-1799 -- Causes",
+        "Secret societies",
+        "Staël, Madame de (Anne-Louise-Germaine), 1766-1817",
+        "Napoleon I, Emperor of the French, 1769-1821 -- Adversaries"
+      ]
+    },
+    {
+      "title": "Samhain, issue 3, October 1903 :  an occasional review by W. B. Yeats et al.",
+      "author": "Yeats, W. B. (William Butler), 1865-1939",
+      "language": "English",
+      "isbn": "979-8-238-79770-0",
+      "release_date": "Oct 12, 2026",
+      "subjects": [
+        "Theater -- Ireland -- Periodicals"
+      ]
+    },
+    {
+      "title": "Il socialismo by Napoleone Colajanni",
+      "author": "Colajanni, Napoleone, 1847-1921",
+      "language": "Italian",
+      "isbn": "979-8-238-79769-4",
+      "release_date": "Oct 12, 2026",
+      "subjects": [
+        "Socialism"
+      ]
+    },
+    {
+      "title": "Samhain, issue 2, October 1902 :  an occasional review by W. B. Yeats et al.",
+      "author": "Yeats, W. B. (William Butler), 1865-1939",
+      "language": "English",
+      "isbn": "979-8-238-79768-7",
+      "release_date": "Oct 12, 2026",
+      "subjects": [
+        "Theater -- Ireland -- Periodicals"
+      ]
+    },
+    {
+      "title": "A reluctant hero by Helen R. Hull",
+      "author": "Hull, Helen R. (Helen Rose), 1888-1971",
+      "language": "English",
+      "isbn": "979-8-238-79767-0",
+      "release_date": "Oct 12, 2026",
+      "subjects": [
+        "Short stories",
+        "Heroes -- Fiction",
+        "Families -- Fiction"
+      ]
+    },
+    {
+      "title": "A narrative of the causes which led to Philip's Indian War, of 1675 and 1676",
+      "author": "Easton, John, 1617-1705",
+      "language": "English",
+      "isbn": "979-8-238-79766-3",
+      "release_date": "Oct 11, 2026",
+      "subjects": [
+        "King Philip's War, 1675-1676",
+        "Indians of North America -- Rhode Island -- Early works to 1800",
+        "Rhode Island -- History -- Colonial period, ca. 1600-1775 -- Sources"
+      ]
+    },
+    {
+      "title": "Hero stories of France by Eva March Tappan",
+      "author": "Tappan, Eva March, 1854-1930",
+      "language": "English",
+      "isbn": "979-8-238-79765-6",
+      "release_date": "Oct 11, 2026",
+      "subjects": [
+        "France -- Biography -- Juvenile literature",
+        "France -- History -- Juvenile literature"
+      ]
+    },
+    {
+      "title": "Dead end by Mack Reynolds",
+      "author": "Reynolds, Mack, 1917-1983",
+      "language": "English",
+      "isbn": "979-8-238-79764-9",
+      "release_date": "Oct 11, 2026",
+      "subjects": [
+        "Short stories",
+        "Vampires -- Fiction",
+        "Immortalism -- Fiction"
+      ]
+    },
+    {
+      "title": "Geist der Utopie by Ernst Bloch",
+      "author": "Bloch, Ernst, 1885-1977",
+      "language": "German",
+      "isbn": "979-8-238-79763-2",
+      "release_date": "Oct 11, 2026",
+      "subjects": [
+        "Philosophy",
+        "Music -- Philosophy and aesthetics"
+      ]
+    },
+    {
+      "title": "Le parement et triumphe des dames by Olivier de La Marche",
+      "author": "La Marche, Olivier de, 1426?-1502",
+      "language": "French",
+      "isbn": "979-8-238-79762-5",
+      "release_date": "Oct 11, 2026",
+      "subjects": [
+        "French literature -- To 1500"
+      ]
+    },
+    {
+      "title": "Deutsches Badewesen in vergangenen Tagen by Alfred Martin",
+      "author": "Martin, Alfred, 1874-1939",
+      "language": "German",
+      "isbn": "979-8-238-79761-8",
+      "release_date": "Oct 11, 2026",
+      "subjects": [
+        "Baths -- Germany -- History",
+        "Balneology -- Germany -- History",
+        "Hydrotherapy -- Germany -- History"
+      ]
+    },
+    {
+      "title": "Réponse de M. Émile Faguet au discours de M. René Doumic by Émile Faguet",
+      "author": "Faguet, Émile, 1847-1916",
+      "language": "French",
+      "isbn": "979-8-238-79760-1",
+      "release_date": "Oct 10, 2026",
+      "subjects": [
+        "Boissier, Gaston, 1823-1908"
+      ]
+    },
+    {
+      "title": "Medieval cities :  Their origins and the revival of trade by Henri Pirenne",
+      "author": "Pirenne, Henri, 1862-1935",
+      "language": "English",
+      "isbn": "979-8-238-79759-5",
+      "release_date": "Oct 10, 2026",
+      "subjects": [
+        "Cities and towns, Medieval",
+        "Commerce -- History -- Medieval, 500-1500"
+      ]
+    },
+    {
+      "title": "Histoire d'un cheval de bois by Jeanne Marcel",
+      "author": "Marcel, Jeanne, 1832-",
+      "language": "French",
+      "isbn": "979-8-238-79758-8",
+      "release_date": "Oct 10, 2026",
+      "subjects": [
+        "Children's stories, French"
+      ]
+    },
+    {
+      "title": "Suggestions for seat work and games, primary grades by Eleanor Troxell",
+      "author": "Troxell, Eleanor, 1874-1943",
+      "language": "English",
+      "isbn": "979-8-238-79757-1",
+      "release_date": "Oct 10, 2026",
+      "subjects": [
+        "Creative activities and seat work"
+      ]
+    },
+    {
+      "title": "L'histoire de Guillaume le Maréchal, T. 3 :  comte de Striguil et de Pembroke,…",
+      "author": "Meyer, Paul, 1840-1917",
+      "language": "French",
+      "isbn": "979-8-238-79756-4",
+      "release_date": "Oct 9, 2026",
+      "subjects": [
+        "Pembroke, William Marshal, Earl of, 1144?-1219 -- Poetry",
+        "Great Britain -- History -- Angevin period, 1154-1216 -- Poetry",
+        "France -- History -- Capetians, 987-1328 -- Poetry"
+      ]
+    },
+    {
+      "title": "Twilight :  A story of two villages by Annette Lyster",
+      "author": "Lyster, Annette, 1831-1908",
+      "language": "English",
+      "isbn": "979-8-238-79755-7",
+      "release_date": "Oct 9, 2026",
+      "subjects": [
+        "Christian life -- Juvenile fiction",
+        "Conduct of life -- Juvenile fiction",
+        "Boys -- Juvenile fiction",
+        "Villages -- Juvenile fiction",
+        "Yorkshire (England) -- Juvenile fiction"
+      ]
+    },
+    {
+      "title": "Viisas Mary by Joseph Crosby Lincoln and Väinö Nyman",
+      "author": "Lincoln, Joseph Crosby, 1870-1944",
+      "language": "Finnish",
+      "isbn": "979-8-238-79754-0",
+      "release_date": "Oct 9, 2026",
+      "subjects": [
+        "Orphans -- Fiction",
+        "Guardian and ward -- Fiction",
+        "Massachusetts -- Fiction",
+        "Cape Cod (Mass.) -- Fiction"
+      ]
+    },
+    {
+      "title": "Puhdasta jälkeä :  Palasia erään kylän historiasta by Väinö Kolkkala",
+      "author": "Kolkkala, Väinö, 1883-1952",
+      "language": "Finnish",
+      "isbn": "979-8-238-79753-3",
+      "release_date": "Oct 9, 2026",
+      "subjects": [
+        "Finnish fiction -- 20th century"
+      ]
+    },
+    {
+      "title": "Kovan onnen mies :  Huvinäytelmä yhdessä näytöksessä by Theodor Wehl",
+      "author": "Wehl, Theodor",
+      "language": "Finnish",
+      "isbn": "979-8-238-79752-6",
+      "release_date": "Oct 9, 2026",
+      "subjects": [
+        "Comedy plays",
+        "One-act plays",
+        "German drama -- Translations into Finnish"
+      ]
+    },
+    {
+      "title": "The moors and the fens, volume 3 (of 3) by Mrs. J. H. Riddell",
+      "author": "Riddell, J. H., Mrs., 1832-1906",
+      "language": "English",
+      "isbn": "979-8-238-79751-9",
+      "release_date": "Oct 9, 2026",
+      "subjects": [
+        "Great Britain -- Fiction"
+      ]
+    },
+    {
+      "title": "The beginnings of the Egyptian question and the rise of Mehemet Ali :  a study…",
+      "author": "Ghurbāl, Muḥammad Shafīq, 1894-1961",
+      "language": "English",
+      "isbn": "979-8-238-79750-2",
+      "release_date": "Oct 9, 2026",
+      "subjects": [
+        "Egypt -- History -- French occupation, 1798-1801",
+        "Egypt -- History -- Mohammed Ali, 1805-1849",
+        "Egypt -- Foreign relations"
+      ]
+    },
+    {
+      "title": "Gesammelte Schriften von Marie von Ebner-Eschenbach (2/10) :  Zweiter Band:…",
+      "author": "Ebner-Eschenbach, Marie von, 1830-1916",
+      "language": "German",
+      "isbn": "979-8-238-79749-6",
+      "release_date": "Oct 9, 2026",
+      "subjects": [
+        "Austrian literature -- 19th century"
+      ]
+    },
+    {
+      "title": "L'histoire de Guillaume le Maréchal, T. 2 :  comte de Striguil et de Pembroke,…",
+      "author": "Meyer, Paul, 1840-1917",
+      "language": "French",
+      "isbn": "979-8-238-79748-9",
+      "release_date": "Oct 9, 2026",
+      "subjects": [
+        "Pembroke, William Marshal, Earl of, 1144?-1219 -- Poetry",
+        "Great Britain -- History -- Angevin period, 1154-1216 -- Poetry",
+        "France -- History -- Capetians, 987-1328 -- Poetry"
+      ]
+    },
+    {
+      "title": "L'histoire de Guillaume le Maréchal, T. 1 :  comte de Striguil et de Pembroke,…",
+      "author": "Meyer, Paul, 1840-1917",
+      "language": "French",
+      "isbn": "979-8-238-79747-2",
+      "release_date": "Oct 9, 2026",
+      "subjects": [
+        "Pembroke, William Marshal, Earl of, 1144?-1219 -- Poetry",
+        "Great Britain -- History -- Angevin period, 1154-1216 -- Poetry",
+        "France -- History -- Capetians, 987-1328 -- Poetry"
+      ]
+    },
+    {
+      "title": "Les liens invisibles by Selma Lagerlöf",
+      "author": "Lagerlöf, Selma, 1858-1940",
+      "language": "French",
+      "isbn": "979-8-238-79746-5",
+      "release_date": "Oct 9, 2026",
+      "subjects": [
+        "Swedish fiction -- Translations into French",
+        "Short stories, Swedish -- Translations into French"
+      ]
+    },
+    {
+      "title": "New discoveries in science by Hereward Carrington",
+      "author": "Carrington, Hereward, 1880-1959",
+      "language": "English",
+      "isbn": "979-8-238-79745-8",
+      "release_date": "Oct 9, 2026",
+      "subjects": [
+        "Science"
+      ]
+    },
+    {
+      "title": "The impulsive Mr. Morrison by Fred MacIsaac",
+      "author": "MacIsaac, Fred, 1886-1940",
+      "language": "English",
+      "isbn": "979-8-238-79744-1",
+      "release_date": "Oct 8, 2026",
+      "subjects": [
+        "Courtship -- Fiction",
+        "Adventure stories",
+        "Americans -- Central America -- Fiction"
+      ]
+    },
+    {
+      "title": "Kings and queens I have known by Elena Văcărescu",
+      "author": "Văcărescu, Elena, 1864-1947",
+      "language": "English",
+      "isbn": "979-8-238-79743-4",
+      "release_date": "Oct 8, 2026",
+      "subjects": [
+        "Victoria, Queen of Great Britain, 1819-1901",
+        "Edward VII, King of Great Britain, 1841-1910",
+        "William II, German Emperor, 1859-1941",
+        "Leo XIII, Pope, 1810-1903",
+        "Franz Joseph I, Emperor of Austria, 1830-1916",
+        "Sylva, Carmen, 1843-1916",
+        "Europe -- Kings and rulers",
+        "Alexandra, Empress, consort of Nicholas II, Emperor of Russia, 1872-1918",
+        "Nicholas II, Emperor of Russia, 1868-1918",
+        "Elena, Queen, consort of Victor Emmanuel III, King of Italy, 1873-1952",
+        "Alexandra, Queen, consort of Edward VII, King of Great Britain, 1844-1925",
+        "Margherita, Queen, consort of Umberto I, King of Italy, 1851-1926",
+        "Victor Emmanuel III, King of Italy, 1869-1947",
+        "María Cristina, Queen, consort of Alfonso XII, King of Spain, 1858-1929",
+        "Alfonso XIII, King of Spain, 1886-1941",
+        "Wilhelmina, Queen of the Netherlands, 1880-1962",
+        "Aleksandar Obrenović, King of Serbia, 1876-1903",
+        "Draga, Queen, consort of Aleksandar Obrenović, King of Serbia, 1867-1903"
+      ]
+    },
+    {
+      "title": "Essays on museums :  and other subjects connected with natural history by Flower",
+      "author": "Flower, William Henry, 1831-1899",
+      "language": "English",
+      "isbn": "979-8-238-79742-7",
+      "release_date": "Oct 7, 2026",
+      "subjects": [
+        "Biology",
+        "Anthropology",
+        "Natural history museums"
+      ]
+    },
+    {
+      "title": "Adorable Clio by Jean Giraudoux",
+      "author": "Giraudoux, Jean, 1882-1944",
+      "language": "French",
+      "isbn": "979-8-238-79741-0",
+      "release_date": "Oct 7, 2026",
+      "subjects": [
+        "World War, 1914-1918 -- Personal narratives, French"
+      ]
+    },
+    {
+      "title": "The king's friend :  a play, in five acts by Robert Sulivan",
+      "author": "Sulivan, Robert, 1797-1875",
+      "language": "English",
+      "isbn": "979-8-238-79740-3",
+      "release_date": "Oct 7, 2026",
+      "subjects": [
+        "Henry IV, King of England, 1367-1413 -- Drama",
+        "English drama -- 19th century",
+        "Sully, Maximilien de Béthune, duc de, 1559-1641 -- Drama"
+      ]
+    },
+    {
+      "title": "A conquest of two worlds by Edmond Hamilton",
+      "author": "Hamilton, Edmond, 1904-1977",
+      "language": "English",
+      "isbn": "979-8-238-79739-7",
+      "release_date": "Oct 7, 2026",
+      "subjects": [
+        "Science fiction",
+        "Mars (Planet) -- Fiction",
+        "Outer space -- Exploration -- Fiction",
+        "Jupiter (Planet) -- Fiction"
+      ]
+    },
+    {
+      "title": "The stratagem, and other stories by Aleister Crowley",
+      "author": "Crowley, Aleister, 1875-1947",
+      "language": "English",
+      "isbn": "979-8-238-79738-0",
+      "release_date": "Oct 7, 2026",
+      "subjects": [
+        "Short stories, English",
+        "English fiction -- 20th century"
+      ]
+    },
+    {
+      "title": "Myself and others by Jessie Millward and J. B. Booth",
+      "author": "Millward, Jessie, 1861-1932",
+      "language": "English",
+      "isbn": "979-8-238-79737-3",
+      "release_date": "Oct 6, 2026",
+      "subjects": [
+        "Actors -- England -- London -- Biography",
+        "Theater -- England -- London"
+      ]
+    },
+    {
+      "title": "Journal of a residence in Ashantee by Joseph Dupuis",
+      "author": "Dupuis, Joseph, 1789-1874",
+      "language": "English",
+      "isbn": "979-8-238-79736-6",
+      "release_date": "Oct 6, 2026",
+      "subjects": [
+        "Ghana -- Description and travel",
+        "Ghana -- History",
+        "Ashanti -- Description and travel",
+        "Ashanti -- History"
+      ]
+    },
+    {
+      "title": "Cyclopedia of painters and paintings, volume 2 (of 4) by Champlin and Perkins",
+      "author": "Champlin, John Denison, 1834-1915",
+      "language": "English",
+      "isbn": "979-8-238-79735-9",
+      "release_date": "Oct 6, 2026",
+      "subjects": [
+        "Painting",
+        "Painters -- Dictionaries"
+      ]
+    },
+    {
+      "title": "A Japanese artist in London by Yoshio Makino",
+      "author": "Makino, Yoshio, 1874-1956",
+      "language": "English",
+      "isbn": "979-8-238-79734-2",
+      "release_date": "Oct 6, 2026",
+      "subjects": [
+        "Makino, Yoshio, 1874-1956",
+        "Watercolorists -- Japan -- Biography",
+        "Watercolorists -- England -- London -- Biography"
+      ]
+    }
+  ]
+}
