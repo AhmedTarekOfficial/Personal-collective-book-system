@@ -50,8 +50,4 @@ def register(email , password  , username  ) :
                     print("Email reigsterd successfully ")
                     break 
 
-
-
-
-
 register(email="ahmedyay532@gmail.com" , password="2291970" , username="ahmed")               

@@ -1,9 +1,8 @@
-﻿import json
+import json
 import os
 import time as ti
 
 DATA_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "books_data.json")
-
 
 def add_book(title, author, language, isbn, release_date, subjects):
 

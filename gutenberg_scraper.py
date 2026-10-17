@@ -1,16 +1,3 @@
-"""
-Project Gutenberg Book Scraper
-==============================
-Scrapes book metadata (title, author, language, ISBN, release date, subjects)
-from https://www.gutenberg.org and saves results to books_data.json
-
-Usage:
-    python gutenberg_scraper.py
-
-Dependencies:
-    pip install requests beautifulsoup4
-"""
-
 import json
 import time
 import logging
@@ -20,11 +7,10 @@ from datetime import datetime
 import requests
 from bs4 import BeautifulSoup
 
-# -- Configuration -------------------------------------------------------------
 TARGET_BOOK_COUNT = 50
 OUTPUT_FILE       = "books_data.json"
-REQUEST_DELAY     = 1.2          # seconds between requests (be a polite scraper)
-REQUEST_TIMEOUT   = 15           # seconds
+REQUEST_DELAY     = 1.2
+REQUEST_TIMEOUT   = 15
 MAX_RETRIES       = 3
 
 BASE_URL          = "https://www.gutenberg.org"
@@ -39,7 +25,6 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
-# -- Logging setup -------------------------------------------------------------
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s  %(levelname)-8s  %(message)s",
@@ -47,8 +32,6 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-
-# -- HTTP helper ---------------------------------------------------------------
 def fetch(url: str) -> BeautifulSoup | None:
     """Fetch a URL and return a BeautifulSoup object, or None on failure."""
     for attempt in range(1, MAX_RETRIES + 1):
@@ -63,8 +46,6 @@ def fetch(url: str) -> BeautifulSoup | None:
     log.error("All retries exhausted for %s", url)
     return None
 
-
-# -- Listing page parser -------------------------------------------------------
 def parse_listing_page(soup: BeautifulSoup) -> list:
     """
     Extract individual book page URLs from a search-results listing page.
@@ -79,8 +60,6 @@ def parse_listing_page(soup: BeautifulSoup) -> list:
 
     return book_urls
 
-
-# -- Individual book page parser -----------------------------------------------
 def parse_book_page(url: str, soup: BeautifulSoup) -> dict:
     """
     Extract metadata from a single book page.
@@ -105,29 +84,23 @@ def parse_book_page(url: str, soup: BeautifulSoup) -> dict:
                 values.append(td.get_text(separator=" ", strip=True))
         return values
 
-    # Title
     title_tag = soup.select_one("h1[itemprop='name']") or soup.select_one("h1")
     title = title_tag.get_text(strip=True) if title_tag else get_bibrec_value("Title")
 
-    # Author
     author_tag = soup.select_one("a[itemprop='creator']")
     author = author_tag.get_text(strip=True) if author_tag else get_bibrec_value("Author")
 
-    # Language
     lang_tag = soup.select_one("tr[itemprop='inLanguage'] td")
     language = lang_tag.get_text(strip=True) if lang_tag else get_bibrec_value("Language")
 
-    # Release Date
     date_tag = soup.select_one("td[itemprop='datePublished']")
     release_date = date_tag.get_text(strip=True) if date_tag else get_bibrec_value("Release date")
 
-    # ISBN  -- Gutenberg books rarely have one; try multiple fallbacks
     isbn = get_bibrec_value("ISBN")
     if not isbn:
         m = re.search(r"\bISBN[:\s]*([\d\-X]{10,17})", soup.get_text())
         isbn = m.group(1).strip() if m else "N/A"
 
-    # Subjects
     subject_tags = soup.select("td[itemprop='about'] a")
     if subject_tags:
         subjects = [t.get_text(strip=True) for t in subject_tags]
@@ -143,12 +116,10 @@ def parse_book_page(url: str, soup: BeautifulSoup) -> dict:
         "subjects":     subjects,
     }
 
-
-# -- Main scraping loop --------------------------------------------------------
 def scrape_gutenberg(target: int = TARGET_BOOK_COUNT) -> list:
     books = []
     seen_urls = set()
-    page_start = 0      # Gutenberg paginates with ?start_index=N (25 per page)
+    page_start = 0
 
     log.info("Starting Project Gutenberg scrape -- target: %d books", target)
 
@@ -196,12 +167,10 @@ def scrape_gutenberg(target: int = TARGET_BOOK_COUNT) -> list:
             except Exception as exc:
                 log.exception("Error parsing %s: %s", book_url, exc)
 
-        page_start += 25   # advance to next listing page
+        page_start += 25
 
     return books
 
-
-# -- Entry point ---------------------------------------------------------------
 def main():
     books = scrape_gutenberg()
 
@@ -222,7 +191,6 @@ def main():
         json.dump(output, f, ensure_ascii=False, indent=2)
 
     log.info("Done! %d books saved to '%s'", len(books), OUTPUT_FILE)
-
 
 if __name__ == "__main__":
     main()

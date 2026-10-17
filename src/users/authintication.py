@@ -1,11 +1,9 @@
-
 import json as js
 from pathlib import Path
 import os as o 
 import time as ti
 
 USERS_FILE = Path(__file__).parent / "users_information.json"
-
 
 def Login(username=None , password =None):
     with open(USERS_FILE, "r", encoding="utf-8-sig") as use:
@@ -39,6 +37,5 @@ def Login(username=None , password =None):
 
       
                 
-
 
 Login(username="dfafadfdsafdsa" , password="daffdafdafda@__")

@@ -4,19 +4,16 @@ import time as ti
 
 COLLECTION_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "person_collectingbooks.json")
 
-
 def update_book(user_id, book_title):
 
     os.system("cls")
     print("Loading your book collection...")
     ti.sleep(1)
 
-    # Load the user's collection file
     with open(COLLECTION_FILE, "r", encoding="utf-8") as f:
         content = f.read().strip()
         collection = json.loads(content) if content else {}
 
-    # Check if this user has any books
     if user_id not in collection or len(collection[user_id]) == 0:
         os.system("cls")
         print("You don't have any books in your collection yet.")
@@ -28,19 +25,16 @@ def update_book(user_id, book_title):
     print("Searching for books with that title...")
     ti.sleep(1)
 
-    # Find all books that match the title
     matching_books = []
     for i, book in enumerate(user_books):
         if book["title"].lower() == book_title.lower():
             matching_books.append((i, book))
 
-    # If no book found with that title
     if len(matching_books) == 0:
         os.system("cls")
         print(f"No book with the title '{book_title}' was found in your collection.")
         return
 
-    # If more than one copy exists, ask the user which one to update
     if len(matching_books) == 1:
         chosen_index = matching_books[0][0]
         chosen_book = matching_books[0][1]
@@ -56,7 +50,6 @@ def update_book(user_id, book_title):
             print(f"       Released: {book.get('release_date', 'N/A')}")
             print()
 
-        # Ask user which one to update
         while True:
             choice = input(f"Which book do you want to update? Enter a number (1 to {len(matching_books)}): ").strip()
 
@@ -69,7 +62,6 @@ def update_book(user_id, book_title):
         chosen_index = matching_books[chosen_number - 1][0]
         chosen_book = matching_books[chosen_number - 1][1]
 
-    # Show update menu
     os.system("cls")
     print(f"What do you want to update for '{chosen_book['title']}'?\n")
     print("  [1] Title")
@@ -85,7 +77,6 @@ def update_book(user_id, book_title):
         else:
             print("Invalid choice. Please enter 1, 2, or 3.")
 
-    # Update the chosen field
     if field_choice == "1":
         os.system("cls")
         print(f"Current title: {chosen_book['title']}\n")
@@ -139,7 +130,6 @@ def update_book(user_id, book_title):
         updated_field = "Subjects"
         new_value = ", ".join(new_subjects)
 
-    # Save the updated collection
     os.system("cls")
     print("Saving your changes...")
     ti.sleep(1)
@@ -150,6 +140,5 @@ def update_book(user_id, book_title):
     os.system("cls")
     print(f"Book updated successfully!")
     print(f"  {updated_field} changed to: {new_value}")
-
 
 update_book(user_id="1", book_title="Secret societies and the French revolution :  together with some kindred…")
